@@ -13,7 +13,7 @@ const HomePage = () => {
   const [duration, setDuration] = useState(null);
   const isAudioAvailable = file || audioStream;
   const [output, setOutput] = useState(null);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
 
   const handleAudioReset = () => {
     setFile(null);
